@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f3f3f3;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 25px 0px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: #3b3b3b;
+}
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.result {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    max-width: 200px;
+    background:rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.result h2 {
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    color: #3b3b3b;
+}
+.result p {
+color: #6d6c6c;
+margin: 0;
+padding: 10px;
+}
+.loader {
+    border: 5px solid black;
+    border-top: 5px solid lightskyblue;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 50%;
+    left: 48%;
+    animation: spin 2s linear infinite;
+}
+.filter-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.filter {
+    text-align: center;
+    padding: 5px;
+}
